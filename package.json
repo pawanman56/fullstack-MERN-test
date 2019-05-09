@@ -1,0 +1,23 @@
+{
+  "name": "fullstack-mern",
+  "version": "1.0.0",
+  "description": "[Let’s build a full stack MongoDB, React, Node and Express (MERN) app](https://medium.com/javascript-in-plain-english/full-stack-mongodb-react-node-js-express-js-in-one-simple-app-6cc8ed6de274)",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"cd backend && node server.js\" \"cd client && npm start\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pawanman56/fullstack-MERN-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pawanman56/fullstack-MERN-test/issues"
+  },
+  "homepage": "https://github.com/pawanman56/fullstack-MERN-test#readme",
+  "dependencies": {
+    "concurrently": "^4.1.0"
+  }
+}
